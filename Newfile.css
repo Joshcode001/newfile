@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: grey;
     width: 1100px;
-    height: 900px;
+    height: 800px;
     align-items: self-start;
     margin-left: 120px;
     margin-top: 60px;
@@ -55,10 +55,12 @@ h1 {
     color: snow;
     font-size: 17px;
     font-weight: bolder;
+    cursor:progress;
 }
 .edit:hover {
     background-color: #ffcc0175;
     color: rgb(113, 0, 128);
     font-size: 17px;
     font-weight: bolder;
+    cursor: progress;
 }
