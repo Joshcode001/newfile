@@ -1,0 +1,64 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    width: 1100px;
+    height: 900px;
+    align-items: self-start;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+.flex-container > div {
+    background-color: #ffcc01c6;
+    width: 1100px;
+    height: 400px;
+    text-align: center;
+    justify-self: center;
+    font-family: Kalnia Glaze;
+}
+h1 {
+    margin-top: 150px;
+    font-weight: bolder;
+}
+.col2 {
+    background-image: url(../../images/lx2.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 1100px;
+    height: 500px;
+}
+.edit {
+    background-color: rgba(0, 0, 0, 0.657);
+               width: 800px;
+               height: 300px;
+           font-family: 'Courier New', Courier, monospace;
+           color: azure;
+           margin-left: 150px;
+           margin-top: 70px;
+           border-radius: 12px;
+           padding: 10px;
+}
+
+.edit2 {
+    background-color: teal;
+    width: 800px;
+    height: 90px;
+    margin-left: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 15px;
+}
+.edit2:hover {
+    background-color: olive;
+    color: snow;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.edit:hover {
+    background-color: #ffcc0175;
+    color: rgb(113, 0, 128);
+    font-size: 17px;
+    font-weight: bolder;
+}
